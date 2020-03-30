@@ -1,0 +1,26 @@
+body{
+    background: black;
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/30/14/58/animal-4373152_1280.jpg);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1280px){
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2016/07/10/11/55/cat-1507600_1280.jpg);
+        background-repeat: no-repeat;
+    }       
+}
+
+@media screen and (max-width:1100px){
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2020/02/27/13/16/sea-gull-4884600_1280.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:700px){
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2018/11/23/19/06/horse-3834426_1280.jpg);
+        background-repeat: no-repeat;
+    }
+}
